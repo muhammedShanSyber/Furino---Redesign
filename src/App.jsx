@@ -16,7 +16,7 @@ function App() {
       <nav className="bg-white  fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src={"public/logo.png"} className="h-8" alt="Flowbite Logo" />
+            <img src="/logo.png" className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-4xl font-bold whitespace-nowrap text-black">
               Furniro
             </span>
@@ -74,12 +74,12 @@ function App() {
         {/* Banner Image */}
         <img
           className="h-auto w-full"
-          src="public/cartbanner.png"
+          src="/cartbanner.png"
           alt="Banner Image"
         />
         {/* Logo and Text - Centered */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <img src="public/logo.png" className="h-8 mb-2" alt="Flowbite Logo" />
+          <img src="/logo.png" className="h-8 mb-2" alt="Flowbite Logo" />
           <span className="text-4xl font-semibold text-black">Cart</span>
 
           <nav className="flex" aria-label="Breadcrumb">
@@ -140,7 +140,7 @@ function App() {
                         <div className="flex items-center">
                           <img
                             className="h-20 w-20 mr-4 bg-[#F9F1E7] rounded-lg "
-                            src="public/product.png"
+                            src="/product.png"
                             alt="Product image"
                           />
                           <span className="font-semibold text-gray-600">
