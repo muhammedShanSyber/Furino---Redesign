@@ -19,7 +19,7 @@ function App() {
             href="https://flowbite.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img src="public/logo.png" className="h-8" alt="Flowbite Logo" />
+            <img src={"public/logo.png"} className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-4xl font-bold whitespace-nowrap text-black">
               Furniro
             </span>
